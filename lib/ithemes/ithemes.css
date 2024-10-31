@@ -1,0 +1,95 @@
+/*** Admin CSS [mostly] taken from WordPress SEO by Yoast ***/
+
+.postbox {
+	margin : 0 10px 10px 0;
+}
+
+.postbox#donate {
+	border-color : #00f;
+	border-width : 2px;
+	font-weight  : bold;
+}
+
+.postbox#donate h3 {
+	color : #00f;
+}
+
+.postbox#donate form {
+	margin     : 7px auto 0 auto;
+	text-align : center;
+}
+
+div.inside a, div.inside a.rsswidget {
+	font-family     : 'Lucida Grande', Verdana, Arial, 'Bitstream Vera Sans', sans-serif;
+	text-decoration : none;
+}
+
+div.inside a:hover, div.inside a.rsswidget:hover {
+	text-decoration : underline;
+}
+
+div.inside ul {
+	margin-left : 20px;
+}
+
+div.inside ul li {
+	list-style  : disc;
+	line-height : 16px;
+}
+
+div.inside ul li.twitter {
+	list-style-image : url(images/twitter.png);
+}
+
+div.inside ul li.facebook {
+	list-style-image : url(images/facebook.png);
+}
+
+div.inside ul li.google {
+	list-style-image : url(images/google.png);
+}
+
+div.inside ul li.subscribe {
+	list-style-image : url(images/subscribe.png);
+}
+
+div.inside ul li.ithemes {
+	list-style-image : url(images/ithemes-small.png);
+}
+
+table.ithemessorttable {
+	border  : 1px solid #ddd;
+	padding : 0;
+}
+
+table.ithemessorttable tr,
+table.ithemessorttable td {
+	margin  : 0;
+	padding : 0;
+}
+
+table.ithemessorttable tr.odd {
+	background-color : #fff;
+}
+
+table.ithemessorttable tr.even {
+	background-color : #eee;
+}
+
+table.ithemessorttable td {
+	border : 1px solid #ddd;
+}
+
+table.ithemessorttable tr.thead {
+	background       : #f1f1f1;
+	background-image : -webkit-gradient(linear, left bottom, left top, from(#ececec), to(#f9f9f9));
+	background-image : -webkit-linear-gradient(bottom, #ececec, #f9f9f9);
+	background-image : -moz-linear-gradient(bottom, #ececec, #f9f9f9);
+	background-image : -o-linear-gradient(bottom, #ececec, #f9f9f9);
+	background-image : linear-gradient(to top, #ececec, #f9f9f9);
+}
+
+table.ithemessorttable tr td {
+	padding : 10px 5px 3px 10px;
+}
+
